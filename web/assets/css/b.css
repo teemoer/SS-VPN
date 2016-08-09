@@ -1,0 +1,107 @@
+﻿
+.content{margin-right: 270px;}
+.sidebar{width: 250px;margin-left: -250px;}
+.widget{border: 1px solid #eeeeee;font-size: 14px;padding: 25px 25px 20px;}
+
+.widget-b-dm{padding: 0;}
+
+.b-wel{padding: 100px 40px;text-align: center;}
+.b-wel h2{font-size: 18px;font-weight: normal;margin-bottom: 40px;}
+
+.b-brand{background-color: #2D3237;text-align: center;padding: 40px 0;color: #eee;margin-bottom: 20px;}
+.b-brand h1{font-size: 30px;font-weight: normal;margin: 0 0 5px;}
+.b-brand p{margin: 0;}
+.b-brand a{color: #eee;}
+.b-brand span{font-family: simsun;display: inline-block;margin: 0 15px;font-weight: bold;color: #eee;}
+
+
+.b-box{background-color: #fff;padding-left:120px;margin-bottom: 20px;    
+    -webkit-animation: panel-fade-up 0.4s ease;
+    animation: panel-fade-up 0.4s ease;
+    position: relative;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.b-box h2{float: left;width: 120px;height: 110px;line-height: 25px;margin: 25px 0 25px -120px;padding-top: 30px;font-size: 18px;font-weight: normal;border-right: 4px 0 0 4px;border-right: 1px solid #eeeeee;letter-spacing: 1px;color: #999;}
+.b-box h2 a{color: #999;}
+.b-box:hover h2 a{color: #444;}
+.b-box:hover h2 a:hover{color: #00AAEE;}
+.b-box ul{padding: 20px 5px;height: 140px;overflow: hidden;}
+.b-box ul li{display: inline-block;padding: 5px 20px;position: relative;}
+.b-box ul i{display: block;width: 12px;height: 12px;border-radius: 12px;border: 2px solid #00A8EC;position: absolute;top: 9px;right: 2px;cursor: help;;}
+.b-box ul a:hover{text-decoration: underline;}
+
+
+.widget-b-btns{text-align: center;color: #999;padding-top: 42px;}
+.widget-b-list li{float: left;width: 50%;margin: 5px 0;}
+
+
+
+.b-list{background-color: #fff;margin-bottom: 20px;    
+    -webkit-animation: panel-fade-up 0.4s ease;
+    animation: panel-fade-up 0.4s ease;
+    position: relative;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+.b-list ul{padding: 25px;overflow: hidden;}
+.b-list ul li{float: left;width: 25%;padding: 10px 20px 10px 0;position: relative;overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.b-list ul i{display: inline-block;width: 12px;height: 12px;border-radius: 12px;border: 2px solid #00A8EC;cursor: help;position: relative;margin-left: 10px;top: 1px;}
+.b-list ul a:hover{text-decoration: underline;}
+
+.role-admin .b-list li a:visited{color: #999;}
+
+
+.b-box .s1 a, .b-list .s1 a{color: #FF5E52;}
+.b-box .s2 a, .b-list .s2 a{color: #5CB85C;}
+.b-box .s3 a, .b-list .s3 a{color: #00AAEE;}
+.b-box .s4 a, .b-list .s4 a{color: #FF9F0B;}
+.b-box .s5 a, .b-list .s5 a{font-weight: bold;}
+
+
+
+.b-form{background-color: #fff;margin-bottom: 20px;    padding: 50px 50px;
+    -webkit-animation: panel-fade-up 0.4s ease;
+    animation: panel-fade-up 0.4s ease;
+    position: relative;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.b-form-item{margin-bottom: 20px;padding-left: 120px;width: 70%}
+.b-form-item h4{float: left;margin: 0;margin-left: -120px;width: 120px;text-align: right;font-size: 14px;font-weight: normal;line-height: 34px;}
+
+.b-form-text{line-height: 1.7;}
+.b-form-text h3{font-weight: normal;font-size: 16px;margin: 50px 0 10px;}
+.b-form-text ul{list-style: disc;margin-left: 20px;}
+
+.b-popover-tips{padding: 15px 30px;position: fixed;top: 50%;left: 50%;z-index:9999;background-color: #000;color: #fff;opacity: 0;border-radius: 4px;}
+
+
+
+
+
+
+
+.b-actions{position: fixed;right: -310px;bottom: 0;top: 0;z-index: 999999;width: 300px;box-shadow: 0 1px 10px rgba(0,0,0,0.25);background-color: #fff;padding: 30px;height: 100%;overflow: auto;}
+.b-actions-item{margin: 0 0 20px;}
+.b-actions h3{margin: 0 0 30px;font-size: 21px;font-weight: normal;border-bottom: 1px solid #e0e0e0;padding-bottom: 10px;}
+.b-actions h4{margin: 0 0 5px;font-size: 12px;}
+
+
+
+
+@media (max-width: 1024px) {
+  .content{margin-right: 0;}
+  .b-list ul li{width: 25%}
+}
+
+@media (max-width: 720px) {
+  .b-list ul li{width: 33.3333333%}
+}
